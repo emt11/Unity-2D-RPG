@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60598513155fc2145ad97d80bde3e33e, type: 3}
+  m_Name: Quest - Delivery Potion
+  m_EditorClassIdentifier: Assembly-CSharp::QuestDataSO
+  saveId: dc9e4936d3f7bf646a399f5751445495
+  questName: Delivery Potion
+  description: Delivery Potion' description
+  goal: '- Delivery Potion to Bob'
+  targetId: 
+  requiredAmount: 4
+  rewardType: 0
+  rewardItems:
+  - itemData: {fileID: 11400000, guid: 873f74785531f4b499b29dd997c54ff5, type: 2}
+    itemEffect: {fileID: 0}
+    stackSize: 1
+  questType: 2
+  itemToDelivery: {fileID: 11400000, guid: 1e91a356a2dc98442863165c72f7b6e9, type: 2}

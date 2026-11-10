@@ -1,0 +1,66 @@
+# Unity project rules, adapted from:
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Keep Assets (including .meta), Packages and ProjectSettings in version control.
+
+# Unity caches and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/.utmp/
+*.log
+
+# Build output and diagnostic captures
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emory[Cc]aptures/
+/[Rr]ecordings/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+/ExportedObj/
+*.apk
+*.aab
+*.obb
+*.app
+
+# Local IDE settings and caches
+/.vs/
+/.vscode/
+/.idea/
+/.gradle/
+*.DotSettings.user
+
+# Generated solution and project files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+
+# Temporary files and crash reports
+*.tmp
+/sysinfo.txt
+mono_crash.*
+.dirstamp
+tmpinst-dir.stamp
+
+# Unity crash recovery scenes and their metadata
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Generated Rider integration and UI schemas
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/UIElementsSchema/
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

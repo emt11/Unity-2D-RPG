@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f38a98022e61e40a3ac40fc3e701bd, type: 3}
+  m_Name: AUDIO DATABASE
+  m_EditorClassIdentifier: Assembly-CSharp::AudioDatabaseSO
+  player:
+  - audioName: player_attackHit
+    clips:
+    - {fileID: 8300000, guid: 5341c6bd7dafcf948abc99fdace02467, type: 3}
+    - {fileID: 8300000, guid: 37784055730eb9140ad8b09a5ef0f2f3, type: 3}
+    - {fileID: 8300000, guid: cbd14b5c92845cb44b44ef7a9c4f002c, type: 3}
+    maxVolume: 1
+  - audioName: player_attackMiss
+    clips:
+    - {fileID: 8300000, guid: 5219301f04643b246b5525cd4198a2b7, type: 3}
+    - {fileID: 8300000, guid: 3ca3bcc3eae199c4cb8a54d1b0f2a08b, type: 3}
+    - {fileID: 8300000, guid: 444b1e00923d122489a07d03bbebafc7, type: 3}
+    maxVolume: 1
+  uiAudio:
+  - audioName: button_click
+    clips:
+    - {fileID: 8300000, guid: 357c3ffe4e507014da10ec2f1e751013, type: 3}
+    maxVolume: 1
+  mainMenuMusic:
+  - audioName: playlist_mainMenu
+    clips:
+    - {fileID: 8300000, guid: 8728c9446a56c054ea4cc39faf4d779a, type: 3}
+    maxVolume: 0.656
+  levelMusic:
+  - audioName: playlist_levels
+    clips:
+    - {fileID: 8300000, guid: b9d505382e98cc94783937152306758d, type: 3}
+    maxVolume: 0.643

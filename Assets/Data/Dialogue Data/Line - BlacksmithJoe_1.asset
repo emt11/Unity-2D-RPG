@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ec581907328074cbcedb6ccef9cddc, type: 3}
+  m_Name: Line - BlacksmithJoe_1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueLineSO
+  dialogueGroupName: Blacksmith Joe
+  speaker: {fileID: 11400000, guid: d084bba8bc2761b4fa8b6a7cfa92c82d, type: 2}
+  textLine:
+  - If this takes longer than a pint, I'm busy.
+  - Ah, good to see a old friend. What can I get ye?
+  - Joe took me tools again. I swear, I'll bury that bastard...
+  - If ye brake it, you buy it. If i break it...
+  playerChoiceAnswer: 
+  choiceLines: []
+  actionType: 2
+  actionLine: GO Craft, lad! Go Stronger!
